@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/regular.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon? family=Material+icons">
+
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <title>Document</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  .container {
+    height: 7920px;
+    width: 9000px;
+    background-color: #E5E5E5
+  }
+
+  .firsth1 {
+    position: relative;
+    left: 1500px;
+    top: 2660px;
+    font-size: larger;
+    font-family: sans-serif;
+  }
+
+  .h12 {
+    position: relative;
+    left: 25px;
+    font-size: 19px;
+    font-family: sans-serif;
+    top: 20px;
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+
+
+
+  .Blackbox {
+    position: relative;
+    left: 1700px;
+    top: 2300px;
+    width: 700px;
+    height: 166px;
+    background: rgb(24, 20, 20);
+    color: white;
+  }
+
+  .secondblackbox {
+    position: relative;
+    left: 2440px;
+    top: 2136px;
+    width: 700px;
+    height: 166px;
+    background: rgb(24, 20, 20);
+    color: white;
+
+  }
+
+
+  .p1 {
+    position: relative;
+    left: 25px;
+    font-size: 25px;
+    top: 35px;
+    width: 900px;
+  }
+
+  .input-container {
+    position: relative;
+    left: 2259px;
+    top: 2200px;
+    width: 600px;
+    height: 800px;
+    background-color: white;
+
+  }
+
+  .first {
+    position: relative;
+    left: 1700px;
+    top: 1400px;
+    width: 560px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.781)
+  }
+
+  img {
+    width: 450px;
+    height: 720px;
+    position: relative;
+    left: 30px;
+  }
+
+  .h13 {
+    position: relative;
+    left: 100px;
+    top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #213F7D
+  }
+
+  .p2 {
+    position: relative;
+    left: 100px;
+    top: 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+  }
+
+  .inp1 {
+    width: 450px;
+    height: 45px;
+    border: 1px solid;
+    color: gray;
+    position: relative;
+    left: 100px;
+    top: 255px;
+    border-radius: 4px;
+  }
+
+  .inp2 {
+    width: 450px;
+    height: 45px;
+    border: 1px solid;
+    color: gray;
+    position: relative;
+    left: 100px;
+    top: 280px;
+    border-radius: 4px;
+  }
+
+  .But1 {
+    width: 450px;
+    height: 45px;
+    background-color: rgb(0, 183, 255);
+    position: relative;
+    border: none;
+    left: 100px;
+    top: 340px;
+    color: white;
+    border-radius: 6px;
+  }
+
+  .p3 {
+    position: relative;
+    left: 100px;
+    top: 300px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(0, 110, 255);
+
+
+  }
+
+  .next {
+    position: relative;
+    left: 2900px;
+    top: 600px;
+    width: 1500px;
+    height: 1400px;
+    background: whitesmoke;
+
+  }
+
+  ::placeholder {
+    position: relative;
+    left: 5px;
+  }
+
+  .imgnav {
+    height: auto;
+    width: 200px;
+    top: 20px;
+
+  }
+
+  .search-bar {
+    position: relative;
+    border-radius: 5px;
+    left: -9px;
+    top: 10px;
+    width: 620px;
+    height: 40px;
+    display: inline-flex;
+    border-color: rgba(255, 241, 196, 0.329);
+
+
+  }
+
+  .sh {
+    position: relative;
+    color: white;
+    width: 84px;
+    border-radius: 5px;
+    height: 39px;
+    top: 15px;
+    left: 530px;
+    font-size: 20px;
+
+
+  }
+
+  .iback {
+    position: relative;
+    background-color: rgb(0, 183, 255);
+    width: 84px;
+    border-radius: 5px;
+    height: 39px;
+    top: 10px;
+    left: 570px;
+    font-size: 20px;
+  }
+
+  .nav1 {
+    width: 1499px;
+    background-color: white;
+    height: 120px;
+  }
+
+  .nav2 {
+    width: 283px;
+    background-color: white;
+    height: 1280px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .cus {
+    position: relative;
+    top: 90px;
+    font-size: 16px;
+
+
+  }
+
+
+
+
+  .cus1 {
+    position: relative;
+    left: 25px;
+    top: -12px;
+    font-size: 12px;
+    color: #545f7D;
+    font-family: Work Sans;
+
+  }
+
+  .Dash {
+    position: relative;
+    top: 20px;
+  }
+
+  .Switch {
+    position: relative;
+    top: 25px;
+  }
+
+  .nav2 li {
+    font-size: 16px;
+    padding: 10px 40px;
+    padding-top: 18px;
+    align-items: center;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.77px;
+  }
+
+  .nav2 li:hover {
+    background: linear-gradient(to right, aquamarine 2%, rgba(255, 255, 255, 0.199) 0%, rgba(0, 128, 111, 0.171) 0%);
+    color: blue;
+    border-left: blue;
+  }
+
+  .Dashli:hover {
+    background-color: aquamarine;
+    color: blue;
+    position: fixed;
+    border-left: blue;
+  }
+
+  .UH1 {
+    position: relative;
+    left: 330px;
+    bottom: 1260px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #545f7D;
+  }
+
+  .navbox1 {
+    width: 240px;
+    height: 160px;
+    flex-shrink: 0px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    left: 343px;
+    bottom: 1195px;
+    background-color: #fff;
+    box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.4);
+  }
+
+  .navbox2 {
+    width: 240px;
+    height: 160px;
+    position: relative;
+    flex-shrink: 0px;
+    left: 625px;
+    bottom: 1350px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    background-color: #fff;
+    box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.4);
+  }
+
+  .navbox3 {
+    width: 240px;
+    height: 160px;
+    position: relative;
+    border-radius: 4px;
+    flex-shrink: 0px;
+    left: 890px;
+    bottom: 1510px;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    background-color: #fff;
+    box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.4);
+  }
+
+  .navbox4 {
+    width: 240px;
+    height: 160px;
+    position: relative;
+    border-radius: 4px;
+    flex-shrink: 0px;
+    left: 1159px;
+    bottom: 1670px;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    background-color: #fff;
+    box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.4);
+
+  }
+
+  .table1 {
+    width: 1037px;
+    height: 640px;
+    background-color: white;
+    position: relative;
+    left: 343px;
+    bottom: 1630px;
+    border-collapse: collapse;
+    border: 1px solid #21407d25;
+    box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.4);
+
+  }
+
+  .table01 {
+    width: 1057px;
+    height: 640px;
+    background-color: white;
+    position: relative;
+    left: 343px;
+    bottom: 1630px;
+    border-collapse: collapse;
+    border: 1px solid #21407d25;
+    box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.4);
+
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .lip {
+    font-size: 15px;
+    position: relative;
+    left: 35px;
+  }
+
+  .set {
+    position: relative;
+    font-size: 16px;
+    left: 30px;
+    top: 150px;
+    color: #545f7D;
+    font-family: work sans;
+  }
+
+  .Bus {
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    left: 30px;
+    line-height: 14.08px;
+    top: 120px;
+    color: #545f7D;
+    font-family: Work Sans;
+  }
+
+  .ff2 li {
+    font-size: 16px;
+    position: relative;
+    top: 130px;
+    display: flex;
+    align-items: center;
+  }
+
+  .ff3 li {
+    font-size: 16px;
+    position: relative;
+    top: 160px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  td {
+    position: relative;
+    left: -55px;
+    border-color: antiquewhite;
+    color: #213F7D;
+  }
+
+  td {
+    padding: 1.2rem;
+    font-size: 17px;
+    top: -39px;
+    left: 20px;
+    border-bottom: 1px solid;
+    border-color: antiquewhite;
+  }
+
+  th {
+    font-size: 13px;
+    padding: 1.3rem;
+    top: -28px;
+    width: 200;
+  }
+
+
+
+  .Or {
+    position: relative;
+    left: 15px;
+    color: #21407d;
+  }
+
+  .Us {
+    position: relative;
+    left: 15px;
+    color: #21407d;
+  }
+
+  .Em {
+    position: relative;
+    left: -30px;
+    color: #21407d;
+  }
+
+  .Ph {
+    position: relative;
+    left: 15px;
+    color: #21407d;
+  }
+
+  .Da {
+    position: relative;
+    left: -15px;
+    color: #21407d;
+  }
+
+  .St {
+    position: relative;
+    left: 15px;
+    color: #21407d;
+  }
+
+  .statusinactive {
+    background-color: #21407d13;
+    width: 80px;
+    height: 22px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .statuspend {
+    background-color: rgba(255, 255, 0, 0.39);
+    color: rgba(205, 190, 50, 0.966);
+    width: 80px;
+    height: 21px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .statusblack {
+    background-color: rgba(255, 0, 0, 0.39);
+    color: red;
+    width: 80px;
+    height: 21px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .statusactive {
+    background-color: rgba(0, 128, 0, 0.212);
+    color: green;
+    width: 80px;
+    height: 21px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  #ddd {
+    width: 45px;
+    height: 25px;
+    position: relative;
+    left: 150px;
+    top: 25px;
+  }
+
+  #ddd1 {
+    width: 45px;
+    height: 25px;
+    position: relative;
+    left: 252px;
+    top: 25px;
+  }
+
+  #ddd2 {
+    width: 45px;
+    height: 25px;
+    position: relative;
+    left: 295px;
+    top: 25px;
+  }
+
+  #ddd3 {
+    width: 45px;
+    height: 25px;
+    position: relative;
+    left: 505px;
+    top: 25px;
+  }
+
+  #ddd4 {
+    width: 45px;
+    height: 25px;
+    position: relative;
+    left: 600px;
+    top: 25px;
+  }
+
+  #ddd5 {
+    width: 45px;
+    height: 25px;
+    position: relative;
+    left: 719px;
+    top: 25px;
+  }
+
+  .dot {
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #21237d;
+    margin-top: 4px;
+    position: relative;
+    left: 1000px;
+    bottom: 630px;
+  }
+
+  .dot2 {
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #21237d;
+    margin-top: 4px;
+    position: relative;
+    left: 1000px;
+    bottom: 590px;
+  }
+
+  .dot3 {
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #21237d;
+    margin-top: 4px;
+    position: relative;
+    left: 1000px;
+    bottom: 560px;
+  }
+
+  .dot4 {
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #21237d;
+    margin-top: 4px;
+    position: relative;
+    left: 1000px;
+    bottom: 520px;
+  }
+
+  .dot5 {
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #21237d;
+    margin-top: 4px;
+    position: relative;
+    left: 1000px;
+    bottom: 486px;
+  }
+
+  .dot6 {
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #21237d;
+    margin-top: 4px;
+    position: relative;
+    left: 1000px;
+    bottom: 449px;
+  }
+
+  .dot7 {
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #21237d;
+    margin-top: 4px;
+    position: relative;
+    left: 1000px;
+    bottom: 413px;
+  }
+
+  .dot8 {
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #21237d;
+    margin-top: 4px;
+    position: relative;
+    left: 1000px;
+    bottom: 376px;
+  }
+
+  .dot9 {
+    width: 4px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #21237d;
+    margin-top: 4px;
+    position: relative;
+    left: 1000px;
+    bottom: 338px;
+  }
+
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+
+  .ellipsis1 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 1303px;
+    top: -2068px;
+  }
+
+  .ellipsis2 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 960px;
+    bottom: 691px;
+  }
+
+  .ellipsis3 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 960px;
+    bottom: 660px;
+  }
+
+  .ellipsis4 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 90px;
+    left: 960px;
+    bottom: 567px;
+  }
+
+  .ellipsis5 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 90px;
+    left: 960px;
+    bottom: 540px;
+  }
+
+  .ellipsis6 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 960px;
+    bottom: 508px;
+  }
+
+  .ellipsis7 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 960px;
+    bottom: 480px;
+  }
+
+  .ellipsis8 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 960px;
+    bottom: 450px;
+  }
+
+  .ellipsis9 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 960px;
+    bottom: 417px;
+  }
+
+  .dropdown2 .ellipsis {
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .dropdown2-menu {
+    position: relative;
+    left: 1210px;
+    bottom: 2100px;
+    border: 1px solid #cccccc0a;
+    display: none;
+    font-size: 15px;
+    color: #21237d;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 9px;
+    text-wrap: wrap;
+    font-family: sans-serif;
+  }
+
+  .dropdown2-menu li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  .dropdown2-menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .dropdown2-menu li a:hover {
+    color: #666;
+  }
+
+  .dropdown2:hover .dropdown2-menu {
+    display: block;
+  }
+
+  .User1 {
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    top: 65px;
+    color: #545f7d;
+    font-family: work sans;
+  }
+
+  .User2 {
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    top: 65px;
+    color: #545f7d;
+    font-family: work sans;
+  }
+
+  .num1 {
+    position: relative;
+    font-family: work sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    left: 93px;
+    top: 80px;
+    color: #213f7d;
+
+  }
+
+  .num2 {
+    position: relative;
+    font-family: work sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    left: 68px;
+    top: 80px;
+    color: #213f7d;
+
+  }
+
+  .num3 {
+    position: relative;
+    font-family: work sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    left: 52px;
+    top: 80px;
+    color: #213f7d;
+
+  }
+
+  .num4 {
+    position: relative;
+    font-family: work sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    left: 45px;
+    top: 80px;
+    color: #213f7d;
+
+  }
+
+  #p2 {
+    position: relative;
+    left: 4450px;
+    top: -800px;
+  }
+
+  #Dropdown {
+    position: relative;
+    left: 100px;
+    top: 100px;
+  }
+
+  #select {
+    color: #21407d;
+    width: 65px;
+    height: 35px;
+    background-color: #21407d28;
+    border-style: none;
+    position: relative;
+    top: 660px;
+    right: 254px;
+
+  }
+
+  .select1 {
+    color: #213F7D;
+    position: relative;
+    top: 660px;
+    right: 392px;
+  }
+
+  .select2 {
+    color: #213F7D;
+    position: relative;
+    top: 660px;
+    left: -130px;
+  }
+
+  .pagination {
+    text-align: center;
+    position: relative;
+    text-decoration: bold;
+    top: -15px;
+    left: 378px;
+    font-size: 13px;
+
+  }
+
+  .pagination a {
+    color: #21407d;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+
+  }
+
+  .pagination a.active {
+    background-color: #21407d38;
+    color: #21237d;
+    font-weight: bold;
+    border-radius: 5px;
+    font-weight: bold;
+
+
+
+  }
+
+  .pagination a:hover:not(.active) {
+    background-color: #E5E5E5;
+    border-radius: 5px;
+
+  }
+
+  .sam {
+    width: 38px;
+    height: 38px;
+    position: relative;
+    left: 530px;
+    top: 7px;
+    border-radius: 50%;
+  }
+
+  #select3 {
+    width: 30px;
+    position: relative;
+    left: 510px;
+    top: 4px;
+
+
+  }
+
+  #Ade {
+    width: 10px;
+    height: 50px;
+    position: relative;
+    left: 1355px;
+    top: -30px;
+    color: #21237d;
+  }
+
+
+  #bell {
+    color: rgba(55, 0, 255, 0.363);
+    position: relative;
+    width: 94px;
+    border-radius: 5px;
+    height: 39px;
+    top: 8px;
+    left: 440px;
+    font-size: 20px;
+
+  }
+
+  .container-menu {
+    display: grid;
+
+
+  }
+
+  .group-menu {
+    cursor: pointer;
+  }
+
+
+
+  #bord {
+    position: relative;
+    right: 5px
+  }
+
+  #money {
+    position: relative;
+    right: 5px;
+  }
+
+  .material-symbols-outlined {
+    width: 400px;
+  }
+
+  .login-dropdown {
+    position: relative;
+    display: inline-block;
+
+
+  }
+
+  .imglog {
+    width: 45px;
+    height: 25px;
+    position: relative;
+    left: 92px;
+    top:px ;
+  }
+
+  .login-btn {
+    color: #fff;
+    padding: 15px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 37px;
+    bottom: 693px;
+  }
+
+
+
+  .login-form {
+    position: absolute;
+    bottom: 101px;
+    left: 20px;
+    width: 260px;
+    height: 600px;
+    border-radius: 7px;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #cccccc;
+    display: none;
+  }
+
+  .login-form input[type="text"],
+  select[type="select"],
+  input[class="downh3"] {
+    width: 220px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    right: 15px;
+  }
+
+
+  .login-form input[class="mit"] {
+    background-color: #4caf4f04;
+    color: #213F7D;
+    padding: 10px;
+    width: 80px;
+    height: 38px;
+    border: 1px solid black;
+    position: relative;
+    bottom: -14px;
+    left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .login-form input[class="submit"] {
+    background-color: rgb(0, 183, 255);
+    ;
+    color: #fff;
+    padding: 10px;
+    width: 80px;
+    height: 38px;
+    border: none;
+    position: relative;
+    bottom: -14px;
+    left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .login-dropdown:hover .login-form {
+    display: block;
+  }
+
+  .downh3 {
+    color: #213F7D;
+    padding: 4px;
+    font-size: 13px;
+    position: relative;
+    right: 17px;
+  }
+</style>
+
+<body>
+
+  <div class="container">
+
+    <div class="firsth1">
+      <h1 class="one">Users</h1>
+    </div>
+
+    <div class="Blackbox">
+      <h1 class="h12">NOTE TO DESIGN </h1>
+      <p class="p1">Please refer to the test email and asssociated document <br> for guidance. All the questions you may
+        want to ask have <br> been answered in the test document. </p>
+    </div>
+
+    <div class="secondblackbox">
+      <h1 class="h12">NOTE TO CANDIDATES </h1>
+      <p class="p1">Please refer to the test email and asssociated document <br> for guidance. All the questions you may
+        want to ask have <br> been answered in the test document. 🤣</p>
+    </div>
+
+
+    <form action="" method="post" style="display: grid;">
+      <div class="input-container">
+        <h1 class="h13">Welcome!</h1>
+        <p class="p2">Enter details to login.</p>
+        <input class="inp1" type="text" placeholder="Email" required>
+        <input class="inp2" type="password" placeholder="Password" required>
+        <p class="p3"> FORGET PASSWORD?</p>
+
+        <button class="But1"> LOG IN </button>
+      </div>
+    </form>
+
+
+    <div class="first">
+      <img src="./pixxx.png" alt="">
+    </div>
+
+    <div class="next">
+      <nav class="nav1">
+        <img class="imgnav" src="./logo.jpg" alt="">
+
+        <div class="search-bar">
+          <div class="iback">
+          </div>
+          <div class="sh"><i class="fa fa-search icon"></i></div>
+          <input type="search" class="search-bar" placeholder="Search for anything">
+
+          <img class="sam" src="./Mr Sam.jpg" alt="">
+
+        </div>
+        <i id="bell" class="fa-regular fa-bell fa-2smr"></i>
+
+        <a href=""><span id="select3" class="fa solid fa-caret-down"> </span></a>
+        <h3 id="Ade">Adedeji</h3>
+      </nav>
+
+
+      <nav class="nav2">
+
+        <ul class="Switch">
+          <li class="switch">
+            <a href=""><span class="fa fa-briefcase"></span>
+              <span>Switch Organization</span></a>
+          </li>
+        </ul>
+        <ul class="Dash">
+          <li class="Dash">
+            <a href="" id="bord"><i class="fa fa-house-chimney"></i></i></span>
+              <span>Dashbord</span></a>
+          </li>
+        </ul>
+
+        <div class="cus">
+          <p class="cus1">CUSTOMERS</p>
+
+          <ul>
+            <li>
+              <a href=""><i id="money" class="fa fa-user-group"></i>Users<span>
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span id="money" class=" fa fa-users"></span><span> Gurarantor
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span id="money" class="fa  fa-sack-dollar"></span><span>Loans
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span id="money" class="far fa-handshake"></span><span>Decision models
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span id="money" class=" fa fa-piggy-bank"></span><span> Savings
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span id="money" class="fa fa-hand-holding "></span><span> Loan Request
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span id="money" class="fa fa-user-check"></span><span>Whitelist
+                </span></a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href=""><span id="money" class="fa fa-user-times"></span><span>Karma
+                </span></a>
+            </li>
+        </div>
+        </ul>
+
+
+        <div class="ff2">
+          <p class="Bus">BUSINESS</p>
+
+          <ul>
+            <li>
+              <a href=""><span class="fa fa-briefcase"></span><span> Organization
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span id="money" class="fa fa-hand-holding dollar"></span><span> Loan Products
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <span href=""><i id="money" class="fa-solid fa-chart-column"></i><span> Savings Product
+                </span></span>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span id="money" class="fa fa-coins"></span><span> Fees and Charges
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span class="fa fa-exchange"></span><span> Transactions
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span class="fa fa-cog"></span><span> Services
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span class="fa fa-user-cog"></span><span> Service Account
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span class="fa fa-scroll"></span><span> Settlements
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span class="fa fa-chart-column"></span><span> Reports
+                </span></a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="ff3">
+          <p class="set">SETTINGS</p>
+          <ul>
+            <li>
+              <a href=""><span id="money" class="fa fa-sliders"></span><span>Preference
+                </span></a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href=""><span class="fa-solid fa-certificate"></span><span> Fees and Pricing
+                </span></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href=""><span class="fa fa-clipboard-list"></span><span> Audit Logs
+                </span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1 class="UH1">User</h1>
+
+      <div class="navbox1">
+        <p class="User1">USERS</p>
+        <h1 class="num1">2,453</h1>
+      </div>
+
+      <div class="navbox2">
+        <p class="User2"> ACTIVE USERS</p>
+        <h1 class="num2">2,453</h1>
+      </div>
+
+      <div class="navbox3">
+        <h1 class="User2">USERS WITH LOANS</h1>
+        <h1 class="num3">12,453</h1>
+      </div>
+
+      <div class="navbox4">
+        <p class="User2">USERS WITH SAVINGS</p>
+        <h1 class="num4">102,453</h1>
+      </div>
+
+      <div class="table01">
+
+        <table>
+          <thead>
+            <tr>
+              <th class="Or">ORGANIZATION</th>
+              <span class=""><img id="ddd" src="./ddd.png" alt=""></span>
+
+              <th class="Us">USERNAME</th>
+              <span class=""><img id="ddd1" src="./ddd.png" alt=""></span>
+
+              <th class="Em">EMAIL</th>
+              <span class=""><img id="ddd2" src="./ddd.png" alt=""></span>
+
+              <th class="Ph">PHONE NUMBER</th>
+              <span class=""><img id="ddd3" src="./ddd.png" alt=""></span>
+
+              <th class="Da">DATE JOINED</th>
+              <span class=""><img id="ddd4" src="./ddd.png" alt=""></span>
+
+              <th class="St"> STATUS</th>
+              <span class=""><img id="ddd5" src="./ddd.png" alt=""></span>
+            </tr>
+          </thead>
+
+          <tr>
+            <tbody>
+              <td class="one">Lendsqr</td>
+              <td class="two">Adedeji</td>
+              <td colspan="three">adedeji@lendsqr.com</td>
+              <td>08078903721</td>
+              <td>May 15, 2020 10:00AM</td>
+              <td>
+                <p class="statusinactive">Inactive</p>
+
+              </td>
+          </tr>
+
+      </div>
+      <tr>
+        <td class="one">Lendsqr</td>
+        <td class="two">Adedeji</td>
+        <td colspan="three">adedeji@lendsqr.com</td>
+        <td>08078903721</td>
+        <td>May 15, 2020 10:00AM</td>
+        <td>
+          <p class="statuspend">Pending</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="one">Lendsqr</td>
+        <td class="two">Adedeji</td>
+        <td colspan="three">adedeji@lendsqr.com</td>
+        <td>08078903721</td>
+        <td>May 15, 2020 10:00AM</td>
+        <td>
+          <p class="statusblack">Blacklisted</p>
+        </td>
+
+      <tr>
+        <td>Lendsqr</td>
+        <td>Adedeji</td>
+        <td>adedeji@lendsqr.com</td>
+        <td>08078903721</td>
+        <td>May 15, 2020 10:00AM</td>
+        <td>
+          <p class="statuspend">Pending</p>
+        </td>
+      <tr>
+        <td class="one">Lendsqr</td>
+        <td class="two">Adedeji</td>
+        <td colspan="three">adedeji@lendsqr.com</td>
+        <td>08078903721</td>
+        <td>May 15, 2020 10:00AM</td>
+        <td>
+          <p class="statusactive">Active</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="one">Lendsqr</td>
+        <td class="two">Adedeji</td>
+        <td colspan="three">adedeji@lendsqr.com</td>
+        <td>08078903721</td>
+        <td>May 15, 2020 10:00AM</td>
+        <td>
+          <p class="statusactive">Active</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="one">Lendsqr</td>
+        <td class="two">Adedeji</td>
+        <td colspan="three">adedeji@lendsqr.com</td>
+        <td>08078903721</td>
+        <td>May 15, 2020 10:00AM</td>
+        <td>
+          <p class="statusblack">Blacklisted</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="one">Lendsqr</td>
+        <td class="two">Adedeji</td>
+        <td colspan="three">adedeji@lendsqr.com</td>
+        <td>08078903721</td>
+        <td>May 15, 2020 10:00AM</td>
+        <td>
+          <p class="statusinactive">Inactive</p>
+        </td>
+
+      <tr>
+
+        <td class="one">Lendsqr</td>
+        <td class="two">Adedeji</td>
+        <td colspan="three">adedeji@lendsqr.com</td>
+        <td>08078903721</td>
+        <td>May 15, 2020 10:00AM</td>
+        <td>
+          <p class="statusinactive">Inactive</p>
+        </td>
+
+      </tr>
+
+      <form id="dropdown " action="select"> <span class="select2">Showing</span>
+        <select name="select" id="select">
+          <option value="100">100</option>
+          <option value="">99</option>
+          <option value="">98</option>
+        </select>
+        <span class="select1">out of 100</span>
+      </form>
+
+
+
+      </table>
+
+
+      <div class="pagination">
+        <a href="" class="active"><span id="act">
+            << /span></a>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">...</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <a href="" class="active"><span id="act">></span></a>
+      </div>
+
+
+      <div class="container-menu ">
+        <div class="group-menu">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+
+        </div>
+
+
+
+
+        <div class="dot2"></div>
+        <div class="dot2"></div>
+        <div class="dot2"></div>
+
+
+
+        <div class="dot3"></div>
+        <div class="dot3"></div>
+        <div class="dot3"></div>
+
+
+
+
+        <div class="dot4"></div>
+        <div class="dot4"></div>
+        <div class="dot4"></div>
+
+
+        <div class="dot5"></div>
+        <div class="dot5"></div>
+        <div class="dot5"></div>
+
+
+
+        <div class="dot6"></div>
+        <div class="dot6"></div>
+        <div class="dot6"></div>
+
+
+
+
+        <div class="dot7"></div>
+        <div class="dot7"></div>
+        <div class="dot7"></div>
+
+
+
+
+
+        <div class="dot8"></div>
+        <div class="dot8"></div>
+        <div class="dot8"></div>
+
+
+
+
+
+        <div class="dot9"></div>
+        <div class="dot9"></div>
+        <div class="dot9"></div>
+
+
+
+
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+  <div class="next" id="p2">
+    <nav class="nav1">
+      <img class="imgnav" src="./logo.jpg" alt="">
+
+      <div class="search-bar">
+        <div class="iback">
+        </div>
+        <div class="sh"><i class="fa fa-search icon"></i></div>
+        <input type="search" class="search-bar" placeholder="Search for anything">
+
+        <img class="sam" src="./Mr Sam.jpg" alt="">
+
+      </div>
+      <i id="bell" class="fa-regular fa-bell"></i>
+
+      <a href=""><span id="select3" class="fa solid fa-caret-down"> </span></a>
+      <h3 id="Ade">Adedeji</h3>
+    </nav>
+
+
+    <nav class="nav2">
+
+      <ul class="Switch">
+        <li class="switch">
+          <a href=""><span class="fa fa-briefcase"></span>
+            <span>Switch Organization</span></a>
+        </li>
+      </ul>
+      <ul class="Dash">
+        <li class="Dash">
+          <a href="" id="bord"><i class="fa fa-house-chimney"></i></i></span>
+            <span>Dashbord</span></a>
+        </li>
+      </ul>
+
+      <div class="cus">
+        <p class="cus1">CUSTOMERS</p>
+
+        <ul>
+          <li>
+            <a href=""><i id="money" class="fa fa-user-group"></i>Users<span>
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span id="money" class=" fa fa-users"></span><span> Gurarantor
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span id="money" class="fa  fa-sack-dollar"></span><span>Loans
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span id="money" class="far fa-handshake"></span><span>Decision models
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span id="money" class=" fa fa-piggy-bank"></span><span> Savings
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span id="money" class="fa fa-hand-holding "></span><span> Loan Request
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span id="money" class="fa fa-user-check"></span><span>Whitelist
+              </span></a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""><span id="money" class="fa fa-user-times"></span><span>Karma
+              </span></a>
+          </li>
+      </div>
+      </ul>
+
+
+      <div class="ff2">
+        <p class="Bus">BUSINESS</p>
+
+        <ul>
+          <li>
+            <a href=""><span class="fa fa-briefcase"></span><span> Organization
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span id="money" class="fa fa-hand-holding"></span><span> Loan Products
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <span href=""><i id="money" class="fa-solid fa-chart-column"></i><span> Savings Product
+              </span></span>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span id="money" class="fa fa-coins"></span><span> Fees and Charges
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span class="fa fa-exchange"></span><span> Transactions
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span class="fa fa-"></span><span> Services
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span class="fa fa-user"></span><span> Service Account
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span class="fa fa-scroll"></span><span> Settlements
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span class="fa fa-chart-column"></span><span> Reports
+              </span></a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="ff3">
+        <p class="set">SETTINGS</p>
+        <ul>
+          <li>
+            <a href=""><span id="money" class="fa fa-sliders"></span><span>Preference
+              </span></a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""><span class="fa fa-certificate"></span><span> Fees and Pricing
+              </span></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""><span class="la la"></span><span> Audit Logs
+              </span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1 class="UH1">User</h1>
+
+    <div class="navbox1">
+      <p class="User1">USERS</p>
+      <h1 class="num1">2,453</h1>
+    </div>
+
+    <div class="navbox2">
+      <p class="User2"> ACTIVE USERS</p>
+      <h1 class="num2">2,453</h1>
+    </div>
+
+    <div class="navbox3">
+      <h1 class="User2">USERS WITH LOANS</h1>
+      <h1 class="num3">12,453</h1>
+    </div>
+
+    <div class="navbox4">
+      <p class="User2">USERS WITH SAVINGS</p>
+      <h1 class="num4">102,453</h1>
+    </div>
+
+    <div class="table01">
+
+      <table>
+        <thead>
+          <tr>
+            <th class="Or">ORGANIZATION</th>
+
+            <th class="Us">USERNAME</th>
+            <span class=""><img id="ddd1" src="./ddd.png" alt=""></span>
+
+            <th class="Em">EMAIL</th>
+            <span class=""><img id="ddd2" src="./ddd.png" alt=""></span>
+
+            <th class="Ph">PHONE NUMBER</th>
+            <span class=""><img id="ddd3" src="./ddd.png" alt=""></span>
+
+            <th class="Da">DATE JOINED</th>
+            <span class=""><img id="ddd4" src="./ddd.png" alt=""></span>
+
+            <th class="St"> STATUS</th>
+            <span class=""><img id="ddd5" src="./ddd.png" alt=""></span>
+          </tr>
+        </thead>
+
+        <tr>
+          <tbody>
+            <td class="one">Lendsqr</td>
+            <td class="two">Adedeji</td>
+            <td colspan="three">adedeji@lendsqr.com</td>
+            <td>08078903721</td>
+            <td>May 15, 2020 10:00AM</td>
+            <td>
+              <p class="statusinactive">Inactive</p>
+            </td>
+        </tr>
+
+        <tr>
+          <td class="one">Lendsqr</td>
+          <td class="two">Adedeji</td>
+          <td colspan="three">adedeji@lendsqr.com</td>
+          <td>08078903721</td>
+          <td>May 15, 2020 10:00AM</td>
+          <td>
+            <p class="statuspend">Pending</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="one">Lendsqr</td>
+          <td class="two">Adedeji</td>
+          <td colspan="three">adedeji@lendsqr.com</td>
+          <td>08078903721</td>
+          <td>May 15, 2020 10:00AM</td>
+          <td>
+            <p class="statusblack">Blacklisted</p>
+          </td>
+
+        <tr>
+          <td>Lendsqr</td>
+          <td>Adedeji</td>
+          <td>adedeji@lendsqr.com</td>
+          <td>08078903721</td>
+          <td>May 15, 2020 10:00AM</td>
+          <td>
+            <p class="statuspend">Pending</p>
+          </td>
+        <tr>
+          <td class="one">Lendsqr</td>
+          <td class="two">Adedeji</td>
+          <td colspan="three">adedeji@lendsqr.com</td>
+          <td>08078903721</td>
+          <td>May 15, 2020 10:00AM</td>
+          <td>
+            <p class="statusactive">Active</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="one">Lendsqr</td>
+          <td class="two">Adedeji</td>
+          <td colspan="three">adedeji@lendsqr.com</td>
+          <td>08078903721</td>
+          <td>May 15, 2020 10:00AM</td>
+          <td>
+            <p class="statusactive">Active</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="one">Lendsqr</td>
+          <td class="two">Adedeji</td>
+          <td colspan="three">adedeji@lendsqr.com</td>
+          <td>08078903721</td>
+          <td>May 15, 2020 10:00AM</td>
+          <td>
+            <p class="statusblack">Blacklisted</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="one">Lendsqr</td>
+          <td class="two">Adedeji</td>
+          <td colspan="three">adedeji@lendsqr.com</td>
+          <td>08078903721</td>
+          <td>May 15, 2020 10:00AM</td>
+          <td>
+            <p class="statusinactive">Inactive</p>
+          </td>
+        <tr>
+
+          <td class="one">Lendsqr</td>
+          <td class="two">Adedeji</td>
+          <td colspan="three">adedeji@lendsqr.com</td>
+          <td>08078903721</td>
+          <td>May 15, 2020 10:00AM</td>
+          <td>
+            <p class="statusinactive">Inactive</p>
+          </td>
+        </tr>
+
+        <form action="select"> <span class="select2">Showing</span>
+          <select name="select" id="select">
+            <option value="100">100</option>
+            <option value="">99</option>
+            <option value="">98</option>
+          </select>
+          <span class="select1">out of 100</span>
+        </form>
+
+      </table>
+      <div class="pagination">
+        <a href="" class="active"><span id="act">
+            < </span></a>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <a href="" class="active"><span id="act">></span></a>
+      </div>
+
+      <div class="login-dropdown">
+        <div class="login-btn"><img class="imglog" src="./ddd.png" alt=""></div>
+        <form class="login-form" action="/login" method="post">
+          <h3 class="downh3"> Organization</h3>
+          <select class="orgtext" type="select" name="user" placeholder="select"></select>
+
+
+
+
+          <h3 class="downh3"> Username</h3>
+          <input class="orgtext" type="text" name="" placeholder="User">
+
+
+          <h3 class="downh3">Email</h3>
+          <input class="orgtext" type="text" name="user" placeholder="Email">
+
+          <h3 class="downh3">Date</h3>
+          <input class="orgtext" type="text" name="user" placeholder="Date">
+
+          <h3 class="downh3">Phone Number</h3>
+          <input class="orgtext" type="text" name="user" placeholder="Phone Number">
+
+          <h3 class="downh3">Status</h3>
+          <select class="orgtext" type="select" name="Status" placeholder="Select">
+
+            <input type="button" value="Reset" class="mit">
+
+            <input type="button" value="Filiter" class="submit">
+        </form>
+
+      </div>
+
+
+
+
+
+      <div><span class="log"><img class="ellipsis2" src="./dott.png" alt=""></span>
+      </div>
+
+      <div><span class="log"><img class="ellipsis3" src="./dott.png" alt=""></span>
+      </div>
+
+
+
+      <div><span class="log"><img class="ellipsis4" src="./dott.png" alt=""></span>
+      </div>
+
+      <div><span class="log"><img class="ellipsis5" src="./dott.png" alt=""></span>
+      </div>
+
+      <div><span class="log"><img class="ellipsis6" src="./dott.png" alt=""></span>
+      </div>
+
+      <div><span class="log"><img class="ellipsis7" src="./dott.png" alt=""></span>
+      </div>
+
+      <div><span class="log"><img class="ellipsis8" src="./dott.png" alt=""></span>
+      </div>
+
+      <div><span class="log"><img class="ellipsis9" src="./dott.png" alt=""></span>
+      </div>
+
+
+
+
+
+      </ul>
+    </div>
+    <div class="dropdown2 ">
+      <span class="log"><img class="ellipsis1" src="./dott.png" alt=""></span>
+      <ul class="dropdown2-menu">
+        <li><a href="#">View details</a></li>
+        <li><a href="#">Blacklist User</a></li>
+        <li><a href="#">Activate User</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
